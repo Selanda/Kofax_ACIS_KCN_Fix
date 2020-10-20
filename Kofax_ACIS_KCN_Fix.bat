@@ -10,6 +10,6 @@ reg delete "HKEY_USERS\.DEFAULT\Software\Kofax Image Products\Ascent Capture" /v
 reg delete "HKEY_USERS\.DEFAULT\Software\Kofax Image Products\Ascent Capture" /v CLSID /f
 
 net start "Ascent Capture Service"
-net stop "ACIS Remote Synchronization Agent"
-net stop "Kofax Capture Recognition Server"
-net stop "Kofax Capture Export"
+net start "ACIS Remote Synchronization Agent"
+net start "Kofax Capture Recognition Server"
+net start "Kofax Capture Export"
